@@ -1,3 +1,4 @@
 #!/bin/bash
 ls
-cat flag
+flag=$(cat flag)
+echo $flag
