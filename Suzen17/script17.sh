@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -a
+flag=$(ls -a)
+echo $flag
