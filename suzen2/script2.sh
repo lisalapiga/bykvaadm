@@ -1,3 +1,3 @@
 #!/bin/bash
-ls -l
-cat :*
+flag=$(cat :* | tail -c29);
+echo "$flag"
