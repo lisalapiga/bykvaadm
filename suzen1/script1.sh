@@ -1,3 +1,3 @@
 #!/bin/bash
-ls
-cat flag
+flag=$(cat diary.txt)
+echo $flag
