@@ -1,1 +1,1 @@
-deb https://mirror.yandex.ru/debian/ stable main non-free
+deb http://ftp.ru.debian.org/debian/ stable main non-free
