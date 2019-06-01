@@ -1,2 +1,3 @@
 #!/bin/bash
-pwd
+flag=$(pwd)
+echo $flag
