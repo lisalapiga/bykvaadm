@@ -1,2 +1,3 @@
 #!/bin/bash
-id
+flag=$(id)
+echo $flag
