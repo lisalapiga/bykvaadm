@@ -1,3 +1,4 @@
 #!/bin/bash
 ls -a
-tail -f diary | grep FLAG
+flag=$(tail -f diary | grep FLAG)
+echo $flag
