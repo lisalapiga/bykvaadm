@@ -9,4 +9,4 @@ RUN apt update && apt-get update && apt-get install nginx && apt-get clean \
     sed -i 's/user nginx/user Lisa/g' /etc/nginx//nginx.conf
 ADD index.html /var/www/lapiga.com/
 ADD img.jpg /var/www/lapiga.com/img/
-
+CMD ["nginx", "-g", "daemon off;"]
