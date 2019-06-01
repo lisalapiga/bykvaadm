@@ -9,5 +9,4 @@ RUN sed -i 's#var/www/html#var/www/lapiga.com#g' /etc/nginx/sites-enabled/defaul
 RUN sed -i 's#www-data;#Lisa;#g' /etc/nginx/nginx.conf
 ADD index.html /var/www/lapiga.com/
 ADD img.jpg /var/www/lapiga.com/img/
-RUN echo "daemon off;" >> /etc/nginx/nginx.conf
-CMD ["nginx"]
+CMD ["nginx","-g","daemon off;"]
